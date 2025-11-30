@@ -1,0 +1,37 @@
+[
+    {
+        "dayIndex": 0,
+        "label": "Today",
+        "temperature": 30.0,
+        "condition": "Clouds",
+        "description": "scattered clouds"
+    },
+    {
+        "dayIndex": 1,
+        "label": "Tomorrow",
+        "temperature": 30.0,
+        "condition": "Clouds",
+        "description": "few clouds"
+    },
+    {
+        "dayIndex": 2,
+        "label": "",
+        "temperature": 31.1,
+        "condition": "Clouds",
+        "description": "broken clouds"
+    },
+    {
+        "dayIndex": 3,
+        "label": "",
+        "temperature": 31.1,
+        "condition": "Rain",
+        "description": "light rain"
+    },
+    {
+        "dayIndex": 4,
+        "label": "",
+        "temperature": 24.9,
+        "condition": "Rain",
+        "description": "moderate rain"
+    }
+]

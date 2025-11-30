@@ -1,0 +1,7 @@
+<<<<<<< #menu-toggle:checked + .menu-dropdown {
+  display: flex;
+}
+=======
+#menu-toggle:checked ~ .menu-dropdown {
+  display: flex;
+}

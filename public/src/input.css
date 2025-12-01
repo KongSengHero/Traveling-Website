@@ -4,31 +4,35 @@
 
 /* Custom styles for mobile dropdown */
 .menu-dropdown {
-  display: none;
-  justify-content: center;
-  align-items: center;
+ display: none;
+ justify-content: center;
+ align-items: center;
 }
 
-#menu-toggle:checked ~ .menu-dropdown {
-  display: flex;
+#menu-toggle:checked~.menu-dropdown {
+ display: flex;
 }
 
 @layer components {
-    .btn {
-        @apply bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-700;
-    }
-    .weather-box {
-        @apply flex outline outline-1 outline-orange-500 p-14 bg-orange-100 my-5 rounded-lg mx-10 flex-col flex-wrap max-sm:p-8 max-sm:py-8;
-    }
-    .weather-card:hover {
-        @apply shadow-2xl ease-in-out duration-100 outline-1 outline outline-orange-500;
-    }
-    .tip-box {
-        @apply flex gap-2 mt-14 mx-5 items-center bg-white rounded-lg outline outline-1 outline-orange-500 p-4;
-    }
+ .btn {
+  @apply bg-orange-500 text-white px-6 py-3 rounded-full hover:bg-orange-700;
+ }
+
+ .weather-box {
+  @apply flex outline outline-1 outline-orange-500 p-14 bg-orange-100 my-5 rounded-lg mx-10 flex-col flex-wrap max-sm:p-8 max-sm:py-8;
+ }
+
+ .weather-card:hover {
+  @apply shadow-2xl ease-in-out duration-100 outline-1 outline outline-orange-500;
+ }
+
+ .tip-box {
+  @apply flex gap-2 mt-14 mx-5 items-center bg-white rounded-lg outline outline-1 outline-orange-500 p-4;
+ }
 }
+
 .bgimg {
-    position: absolute;
-    inset: 0;
-    background:radial-gradient(circle, rgba(0, 0, 0, 0.496) 60%, rgba(255, 115, 0, 0.512));
+ position: absolute;
+ inset: 0;
+ background: radial-gradient(circle, rgba(0, 0, 0, 0.496) 60%, rgba(255, 115, 0, 0.512));
 }
